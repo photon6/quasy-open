@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: quasy-open
+Version: 0.1.0
+Summary: Open-source query anonymization for LLMs
+Author-email: Your Name <you@example.com>
+License-Expression: MIT
+Keywords: llm,anonymization,privacy,ip-protection,ai-safety
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: spacy>=3.7.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Provides-Extra: api
+Requires-Dist: fastapi; extra == "api"
+Requires-Dist: uvicorn[standard]; extra == "api"
+Dynamic: license-file
+
+# QuASy-Open
+
+**Query Anonymization System** – Open-source engine to **detect and abstract sensitive IP** (trade secrets, inventions, product names) from queries before sending them to public LLMs.
+
+- **Never leaks your data**  
+- **Plugs into OpenAI, Anthropic, Grok, etc.**  
+- **Reconstructs full context** for your private model  
+- **MIT Licensed** – use, modify, deploy freely  
+
+Perfect for R&D teams using LLMs without risking IP exposure.
