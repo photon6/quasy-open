@@ -1,0 +1,11 @@
+spacy>=3.7.0
+
+[api]
+fastapi
+uvicorn[standard]
+
+[dev]
+pytest>=7.0
+black
+ruff
+mypy
