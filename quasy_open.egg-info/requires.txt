@@ -9,3 +9,6 @@ pytest>=7.0
 black
 ruff
 mypy
+
+[ui]
+streamlit

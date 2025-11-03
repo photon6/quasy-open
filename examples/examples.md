@@ -1,16 +1,6 @@
-# QuASy-Open
-
-**Query Anonymization System** – Open-source engine to **detect and abstract sensitive IP** (trade secrets, inventions, product names) from queries before sending them to public LLMs.
-
-- **Never leaks your data**  
-- **Plugs into OpenAI, Anthropic, Grok, etc.**  
-- **Reconstructs full context** for your private model  
-- **MIT Licensed** – use, modify, deploy freely  
-
-Perfect for R&D teams using LLMs without risking IP exposure.
 # QuASy Anonymizer PoC
 
-QuASy enables queries with private trade secrets, inventions, or other forms of intellectual property to be part of a private language model, and all queries related to the aforementioned will be abstracted by QuASy to research public LLMs - and the delta of responses given feedback for will be added to private language model (PLM) for tuning.
+This notebook demonstrates the core anonymization logic for QuASy (Query Anonymization System). QuASy enables queries with private trade secrets, inventions, or other forms of intellectual property to be part of a private language model, and all queries related to the aforementioned will be abstracted by QuASy to research public LLMs - and the delta of responses given feedback for will be added to private language model (PLM) for tuning.
 
 **Goal**: Detect sensitive IP in a query and abstract it with placeholders (e.g., `[[PRODUCT_0]]`), creating a safe version for public LLMs while keeping a mapping for private reconstruction.
 
