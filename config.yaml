@@ -1,0 +1,8 @@
+plm>:
+  model_name: "meta-llama/Meta-Llama-3-8B-Instruct" # Example model name
+  engine: "local" # Options: "local", "azure", "openai"
+  generation_params:
+    max_new_tokens: 512
+    temperature: 0.7
+    quantization: "4bit" # Options: "8bit", "4bit", or omit for no quantization
+    device: "mps" # Options: "cuda", "cpu"

@@ -58,3 +58,13 @@ def anonymize(text: str) -> Tuple[str, Dict[str, str]]:
 
     safe += text[offset:]
     return safe, mapping
+
+def reconstruct_query(safe_query: str, mapping: Dict[str, str]) -> str:
+    """
+    Reconstruct the full quwery by replacing placeholders with original IP.
+    Used for secure PLM basweline generation without public exposure.
+    """
+    
+    for placeholder, real in mapping.items():
+        safe_query = safe_query.replace(placeholder, real)
+    return safe_query

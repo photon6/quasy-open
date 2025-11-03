@@ -1,10 +1,6 @@
 LICENSE
 README.md
 pyproject.toml
-anonymizer/abstract.py
-anonymizer/detect.py
-plm/inference.py
-public_llm/client.py
 quasy/__init__.py
 quasy/anonymizer.py
 quasy/cli.py
@@ -17,4 +13,3 @@ quasy_open.egg-info/entry_points.txt
 quasy_open.egg-info/requires.txt
 quasy_open.egg-info/top_level.txt
 ui/streamlit_app.py
-vault/interface.py

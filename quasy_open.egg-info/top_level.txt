@@ -1,7 +1,5 @@
-anonymizer
 docs
+examples
 plm
-public_llm
 quasy
 ui
-vault
