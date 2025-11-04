@@ -3,7 +3,7 @@ from quasy.anonymizer import anonymize, reconstruct_query
 from quasy.public_llm import query_public
 from quasy.plm import plm_generate
 
-st.tietle("QuASy: Query Anonymization Demo")
+st.title("QuASy: Query Anonymization Demo")
 st.markdown("""
 Query Anonymization System enables queries with private trade secrets, 
 inventions, or other forms of intellectual property to be part of a private 

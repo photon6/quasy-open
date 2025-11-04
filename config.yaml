@@ -1,4 +1,4 @@
-plm>:
+plm:
   model_name: "meta-llama/Meta-Llama-3-8B-Instruct" # Example model name
   engine: "local" # Options: "local", "azure", "openai"
   generation_params:

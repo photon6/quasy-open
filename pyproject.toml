@@ -5,7 +5,7 @@ version = "0.1.0"
 description = "Open-source query anonymization for LLMs"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 license = "MIT"  # ← FIXED: string, not table
 keywords = ["llm", "anonymization", "privacy", "ip-protection", "ai-safety"]
 

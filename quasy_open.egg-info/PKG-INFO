@@ -5,7 +5,7 @@ Summary: Open-source query anonymization for LLMs
 Author-email: Your Name <you@example.com>
 License-Expression: MIT
 Keywords: llm,anonymization,privacy,ip-protection,ai-safety
-Requires-Python: >=3.9
+Requires-Python: >=3.11
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: spacy>=3.7.0
